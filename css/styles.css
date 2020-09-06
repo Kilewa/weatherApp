@@ -1,15 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 body{
-    background-image: url('../img/cloud.jpg');
+    background-image: url('../img/bg.jpg');
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    font-family: 'Patrick Hand', cursive;
+}
+.welcome{
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+}
+.fa-check-square{
+    font-size: 16px;
+    margin-right: 10px;
+    color: #BA5624;
+}
+.desc-text{
+    color: #F5F8F2;
+}
+.first-check{
+    margin-right: 12px;
+}
+.welcome0{
+    color: #FCDE9C;
+}
+.welcome1{
+    color: #BA5624;
+}
+.welcome2{
+    color: #BA5624;
+}
+.welcome3{
+    color: #FCDE9C;
+}
+.welcome4{
+    color: #BA5624;
 }
 
 .app-wrap{
@@ -27,20 +62,21 @@ header{
 
 header input{
     width: 100%;
-    max-width: 280px;
+    max-width: 400px;
+    text-align: center;
     padding: 10px 15px;
     border: none;
     outline: none;
-    background-color: rgba(255,255,255, 0.3);
+    background-color: rgba(27, 20, 20, 0.89);
     border-radius: 16px;
     border-bottom: 3px solid orangered;
-    color: #313131;
+    color: #dfe6d8;
     font-size: 20px;
     font-weight: 300;
     transition: 0.2s ease-out;
 }
 header input:focus{
-    background-color: rgba(255,255,255, 0.6);
+    background-color: rgba(37, 35, 35, 0.849);
 }
 main{
     flex: 1 1 100%;
